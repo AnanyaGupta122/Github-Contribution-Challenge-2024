@@ -26,13 +26,13 @@ Constraints:
 
 class Solution(object):
     def isPalindrome(self, y):
-        if x < 0:
+        if y < 0:
             return True
         reversed_number = 0
-        number = x
-        while x > 0:
-            digit = x % 10
-            x = x // 10
+        number = y
+        while y > 0:
+            digit = y % 10
+            y = y // 10
             reversed_number == reversed_number * 10 + digit
 
-        return number = reversed_number
+        return number == reversed_number

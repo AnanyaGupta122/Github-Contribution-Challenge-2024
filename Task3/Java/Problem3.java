@@ -42,6 +42,6 @@ class Solution {
                 }
             }
         }
-        return new int[]{}; // No solution found
+        return null; // No solution found
     }
 }

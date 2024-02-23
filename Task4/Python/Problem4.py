@@ -31,3 +31,5 @@ class Solution:
         result_binary = bin(result)[2:]
         
         return result_binary
+sol = Solution()
+print(sol.addBinary("11","1"))
